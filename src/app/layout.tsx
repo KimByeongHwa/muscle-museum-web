@@ -4,7 +4,7 @@ import { SidebarProvider } from '@/components/ui/sidebar';
 import { AppSidebar } from '@/components/common/AppSidebar';
 import Header from '@/components/common/layout/Header';
 import Footer from '@/components/common/layout/Footer';
-import { notoSansKr } from '@/lib/fonts';
+import { notoSansKr } from '@/constants/fonts';
 
 export default function RootLayout({
   children,
