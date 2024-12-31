@@ -18,7 +18,7 @@ export default function RootLayout({
           <SidebarProvider className="flex-1">
             <AppSidebar />
             <div className="flex-1">
-              <div className="h-auto min-h-full pb-28">
+              <div className="h-auto min-h-full pb-16">
                 <Header />
                 <main className="layout-padding mx-auto max-w-screen-2xl">{children}</main>
               </div>
